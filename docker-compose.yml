@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+
+  nginx-test:
+    image: nginx
+    restart: on-failure:5
+    ports: 
+      - 80:80
